@@ -1,0 +1,151 @@
+*{
+  box-sizing: border-box;
+  
+}
+body{
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: white;
+}
+.brand-title{
+  font-size: 1.55rem;
+  margin: 0.5em;
+}
+.navbar ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+
+}
+.navbar-links li {
+  list-style: none;
+}
+.navbar li a {
+  text-decoration: none;
+  color: white;
+  padding: 1em;
+  display: block;
+  font-size: 1.5rem;
+}
+
+.navbar-links li:hover{
+  background-color: #555;
+}
+.toggle-button {
+  position: absolute;
+  top: 1.4rem;
+  right: 1rem;
+  display: none;
+}
+.toggle-button .fa {
+  color: white;
+  font-size: 2.3rem;
+}  
+@media  (max-width : 754px) {
+  .brand-title{
+    font-size: 1.45rem;
+    margin: 0.5em;
+  }
+    .navbar li a {
+      
+      font-size: 1.3rem;
+    }
+}
+@media  (max-width : 646px) {
+  .brand-title{
+    font-size: 1.25rem;
+    margin: 0.5em;
+  }
+    .navbar li a {
+      
+      font-size: 1.1rem;
+    }
+}
+@media  (max-width : 582px) {
+  .brand-title{
+    font-size: 1.2rem;
+    margin: 0.5em;
+  }
+    .navbar li a {
+      
+      font-size: 1.1rem;
+    }
+}
+@media  (max-width : 570px) {
+  .brand-title{
+    font-size: 1.1rem;
+    margin: 0.5em;
+  }
+    .navbar li a {
+      
+      font-size: 1.03rem;
+    }
+}
+@media  (max-width : 500px) {
+  .brand-title{
+    font-size: 1.1rem;
+    margin: 0.5em;
+  }
+    .navbar li a {
+      
+      font-size: 1rem;
+    }
+}
+@media  (max-width : 480px) {
+  .brand-title{
+    font-size: 1.09rem;
+    margin: 0.5em;
+  }
+    .navbar li a {
+      
+      font-size: 0.92rem;
+    }
+}
+  
+
+@media (max-width:450px){
+  .navbar-links {
+    width: 100%;
+  }
+  .toggle-button  {
+    color: white;
+    display: block;
+    top: 0.7rem;
+  }
+  .toggle-button .fa{
+    font-size: 1.8rem;
+  }
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .navbar ul {
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    /* display: none; */
+  }
+  .navbar ul li a {
+    padding: 0.5em;
+  }
+  .navbar ul li a {
+    font-size: 1.1rem;
+  }
+  .brand-title{
+    font-size: 1.3rem;
+    margin: 0.5em;
+}
+}
+
+
+
+
+
+
